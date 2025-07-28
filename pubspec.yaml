@@ -1,7 +1,7 @@
 name: flutter_super_html_viewer
 description: A Flutter plugin that provides a HtmlViewer widget on multiple platforms
-homepage: https://github.com/dab246/flutter_super_html_viewer.git
 version: 0.1.0
+publish_to: "none" # Remove this line if you wish to publish to pub.dev
 
 environment:
   sdk: ">=2.19.2 <3.0.0"
@@ -19,7 +19,10 @@ dependencies:
 
   universal_html: ^2.0.9
 
-  webview_windows: ^0.2.1
+  webview_windows:
+    git:
+      url: https://github.com/Eduardo-Mateus-Da-Costa/flutter-webview-windows.git
+      ref: main
 
 dev_dependencies:
   flutter_test:
