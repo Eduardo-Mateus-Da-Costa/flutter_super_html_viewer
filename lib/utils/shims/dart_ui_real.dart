@@ -1,1 +1,1 @@
-export 'dart:ui';
+export 'dart:ui_web';
